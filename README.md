@@ -50,6 +50,19 @@ Hint: remember, binary search only works on sorted arrays. In this case, ensure 
 
 You can use the included `phonebook.json` data to save time and focus on writing your algorithm.
 
+## Further - search by any attribute
+
+Modify your algorithm to take in 3 instead of 2 parameters, with the additional parameter being the name of any attribute to search the list by. For example:
+
+```js
+binarySearch(phonebook, attribute, value);
+
+// example
+binarySearch(phonebook, 'phone', 12345678);
+```
+
+Hint: To search by any attribute, you'll probably need to first implement a sorting algorithm within your binarySearch algorithm, then conduct the binary search in the newly sorted array.
+
 ### Resources
 
 - Mock JSON data generated using https://mockaroo.com/
