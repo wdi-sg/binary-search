@@ -40,10 +40,16 @@ __Note__: The only drawback of binary search is that it only works if the array 
 
 ## Further - with objects
 
-Create a new `nameList` array that holds objects instead of strings. Each object should have 3 key-value pairs: `name`, `phone`, and `id`.
+Create a new `phonebook` array that holds objects instead of strings. Each object should have 3 key-value pairs: `name`, `phone`, and `id`.
 
-Modify your binary search algorithm to search for a given `name` value stored in the object, and return the object itself instead of a boolean value.
+Modify your binary search algorithm to search for a given `id` (not `name`) value stored in the object, and return the object itself instead of a boolean value.
 
-For example, `binarySearch(nameList, 'Daisy')` should return `{ name: 'Daisy', phone: 12345678, id: 3 }` (example) instead of `true`. It should still return `false` if no matches were found.
+For example, `binarySearch(phonebook, 44)` should return `{ name: 'Daisy', phone: 12345678, id: 44 }` (example) instead of `true`. It should still return `false` if no matches were found.
 
-Hint: remember, binary search only works on sorted arrays. In this case, sort your objects in the array by their `name` value before passing it into your algorithm.
+Hint: remember, binary search only works on sorted arrays. In this case, ensure your array is sorted by `id` value before passing it into your algorithm.
+
+You can use the included `phonebook.json` data to save time and focus on writing your algorithm.
+
+### Resources
+
+Mock JSON data generated using https://mockaroo.com/
