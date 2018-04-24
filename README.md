@@ -52,4 +52,5 @@ You can use the included `phonebook.json` data to save time and focus on writing
 
 ### Resources
 
-Mock JSON data generated using https://mockaroo.com/
+- Mock JSON data generated using https://mockaroo.com/
+- Simple binary search algorithm for searching an array of integers: https://gist.github.com/nickangtc/4374ea5660f6bbf2b97db5c6d719009f
